@@ -18,5 +18,10 @@ public class TestCamScript : MonoBehaviour
         {
             Box.transform.Translate(Vector3.right * speed);
         }
-	}
+
+        if (Input.GetKeyDown("up"))
+        {
+            Box.transform.Translate(Vector3.up * Time.deltaTime);
+        }
+    }
 }
