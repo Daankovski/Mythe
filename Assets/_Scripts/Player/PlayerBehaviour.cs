@@ -5,9 +5,9 @@ public class PlayerBehaviour : MonoBehaviour {
 
     private Rigidbody2D playerRigidBody;
     // public Vector2 playerPos = Vector2.zero;
-    private CharacterController controller;
 
     [SerializeField] private GameObject player;
+    [SerializeField] private BoxCollider2D playerCollider;
     [SerializeField] private int playerState; // 0 = idle/grounded, 1 = aerial, 2 = walk, 3 = falling, 4 = hanging 999 = dood 
     [SerializeField] private int playerDirection = 2; // 1 = Left, 2 = Right
     [SerializeField] private int currentDirection = 2; // 1 = Left, 2 = Right;
@@ -20,20 +20,23 @@ public class PlayerBehaviour : MonoBehaviour {
 
 
     [SerializeField] private BoxCollider2D chainCollider;
+    [SerializeField] private SpriteRenderer chainSprite;
     [SerializeField] private bool isClickedOnce;
-    [SerializeField] private bool isClickedTwice;
     [SerializeField] private float DCTimer;
-    [SerializeField] private float TCTimer;
+    [SerializeField] private Vector2 fwd;
+    [SerializeField] private RaycastHit2D hit;
 
 
     // Use this for initialization
     void Awake() {
         playerRigidBody = player.GetComponent<Rigidbody2D>();
-        controller = player.GetComponent<CharacterController>();
         playerState = 0;
-        chainCollider = GameObject.Find("chain").GetComponent<BoxCollider2D>();
-        chainCollider.enabled = false;
+        //chainCollider = GameObject.Find("chain").GetComponent<BoxCollider2D>();
+        chainSprite = GameObject.Find("chain").GetComponent<SpriteRenderer>();
+        chainSprite.enabled = false;
+        //chainCollider.enabled = false;
         maxSpeed = 25;
+        fwd = transform.TransformDirection(Vector3.forward);
     }
 
     void Update() {
@@ -85,7 +88,6 @@ public class PlayerBehaviour : MonoBehaviour {
         if (Input.GetKeyUp(KeyCode.D))
         {
             runSpeed = 0;
-           // playerRigidBody.AddForce();
         }
         //Crouch
         if (Input.GetKey(KeyCode.C))
@@ -98,22 +100,16 @@ public class PlayerBehaviour : MonoBehaviour {
           //  Dodge();
         }
         //Jumps
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space))
         {
             // W
-            if (controller.isGrounded) { }
-            else {
+            if (grounded) {
+                grounded = false;
                 playerState = 1;
                 playerRigidBody.AddForce(transform.up * jumpForce);
             }
-        }
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            // W
-            if (controller.isGrounded) { }
             else {
-                playerState = 1;
-                playerRigidBody.AddForce(transform.up * jumpForce);
+                grounded = true;
             }
         }
         //Interaction
@@ -148,36 +144,43 @@ public class PlayerBehaviour : MonoBehaviour {
     }
 
     IEnumerator ChainAttack(float waitTime) {
-        chainCollider.enabled = true;
+        StartCoroutine(DoubleClick(.2f));
+       // chainCollider.enabled = true;
+        if (Physics2D.Raycast(player.transform.position, transform.forward, 20)) {
+            print("chain shot");
+            Debug.DrawLine(player.transform.position, hit.point, Color.red);
+            print("There is something in front of the object!");
+            
+        }
+        yield return new WaitForSeconds(waitTime);
+        //chainCollider.enabled = false;
+    }
+
+    IEnumerator DoubleClick(float waitTime)
+    {
         if (!isClickedOnce)
         {
             isClickedOnce = true;
             DCTimer = Time.time;
-        }
-        else {
+            print("clicked once");
+            yield return new WaitForSeconds(waitTime);
             isClickedOnce = false;
-            isClickedTwice = true;
+        }
+        else
+        {
+            isClickedOnce = false;
             print("clicked twice");
-            //isClickedTwice = true;
             // Do Double Click things
             // Change shape of BoxCollider
-            // check if mouse is clicked 3 times
         }
-        if (isClickedTwice && !isClickedOnce)
-        {
-            TCTimer = Time.time;
-        }
-        else {
-
-        }
-        yield return new WaitForSeconds(waitTime);
-        chainCollider.enabled = false;
-
         if (isClickedOnce) {
-            if ((Time.time - DCTimer) > waitTime) {
+            if ((Time.time - DCTimer) > waitTime)
+            {
                 isClickedOnce = false;
             }
         }
+
+        yield return new WaitForSeconds(waitTime);
     }
 
     int CheckDirection(int currentDirection)
