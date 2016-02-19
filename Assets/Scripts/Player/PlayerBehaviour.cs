@@ -4,8 +4,6 @@ using System.Collections;
 public class PlayerBehaviour : MonoBehaviour {
 
     private Rigidbody2D playerRigidBody;
-    // public Vector2 playerPos = Vector2.zero;
-    private CharacterController controller;
 
     [SerializeField] private GameObject player;
     [SerializeField] private int playerState; // 0 = idle/grounded, 1 = aerial, 2 = walk, 3 = falling, 4 = hanging 999 = dood 
@@ -13,6 +11,8 @@ public class PlayerBehaviour : MonoBehaviour {
     [SerializeField] private int currentDirection = 2; // 1 = Left, 2 = Right;
     [SerializeField] private float runSpeed;
     [SerializeField] private float speedIncrease;
+    [SerializeField] private float speedDecrease;
+    [SerializeField] private float maxRunSpeed;
     [SerializeField] private float forceReset;
     [SerializeField] private float jumpForce;
     [SerializeField] private bool grounded;
@@ -21,41 +21,60 @@ public class PlayerBehaviour : MonoBehaviour {
     // Use this for initialization
     void Awake() {
         playerRigidBody = player.GetComponent<Rigidbody2D>();
-        controller = player.GetComponent<CharacterController>();
         playerState = 0;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        Walk();
-        
+        Movement();
     }
 
-    private void Walk() {
+    private void Movement() {
         //Walk Left
         if (Input.GetKey(KeyCode.A))
         {
-                playerDirection = 1;
-                TurnPlayer();
-                runSpeed += speedIncrease;
-                playerRigidBody.AddForce(-transform.right * runSpeed);
+            if (runSpeed >= maxRunSpeed) {
+                runSpeed = maxRunSpeed;
+            }
+            playerDirection = 1;
+            TurnPlayer();
+            runSpeed += speedIncrease;
+            playerRigidBody.AddForce(-transform.right * runSpeed);
         }
         if (Input.GetKeyUp(KeyCode.A)) {
             runSpeed = 0;
+            playerRigidBody.AddForce(transform.right * speedDecrease);
         }
         //Walk Right
         if (Input.GetKey(KeyCode.D))
         {
-                playerDirection = 2;
-                TurnPlayer();
-                runSpeed += speedIncrease;
-                playerRigidBody.AddForce(transform.right * runSpeed);
+            if (runSpeed >= maxRunSpeed)
+            {
+                runSpeed = maxRunSpeed;
+            }
+            playerDirection = 2;
+            TurnPlayer();
+            runSpeed += speedIncrease;
+            playerRigidBody.AddForce(transform.right * runSpeed);
         }
         if (Input.GetKeyUp(KeyCode.D))
         {
             runSpeed = 0;
            // playerRigidBody.AddForce();
+        }
+        //Jumps
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            // W
+            playerState = 1;
+            playerRigidBody.AddForce(transform.up * jumpForce);
+        }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            // W
+            playerState = 1;
+            playerRigidBody.AddForce(transform.up * jumpForce);
         }
         //Crouch
         if (Input.GetKey(KeyCode.C))
@@ -66,25 +85,6 @@ public class PlayerBehaviour : MonoBehaviour {
         if (Input.GetKey(KeyCode.LeftShift))
         {
           //  Dodge();
-        }
-        //Jumps
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            // W
-            if (controller.isGrounded) { }
-            else {
-                playerState = 1;
-                playerRigidBody.AddForce(transform.up * jumpForce);
-            }
-        }
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            // W
-            if (controller.isGrounded) { }
-            else {
-                playerState = 1;
-                playerRigidBody.AddForce(transform.up * jumpForce);
-            }
         }
         //Interaction
         if (Input.GetKeyDown(KeyCode.E))

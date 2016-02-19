@@ -1,0 +1,38 @@
+Player movement(idle, lopen, sprinten, springen, vallen, doodgaan, hangen etc.)
+Area boundaries
+Player Attacks(Zwaarden, ketting, Speer)
+Tutorial
+Textboxes
+Cutscenes
+Loadingscreen(?)
+Puzzels(Activatie door ketting)
+Minion Behaviour
+Titan Behaviour
+Area transition
+
+Als speler wil ik kunnen springen zodat ik hogerop kan komen.
+Als speler wil ik kunnen lopen/springen zodat ik mij kan verplaatsen
+Als speler wil ik kunnen hangen zodat ik op plekken kan komen waar ik met springen niet kom
+Als speler wil ik dood kunnen gaan zodat ik een failure state heb
+Als speler wil ik kunnen vallen wanneer ik lager moet komen om verder te kunnen gaan
+
+Als gamedev wil ik Area boundaries zodat ik ristricties aan de verplaatsing van de speler kan opleggen
+
+Als speler wil ik aan kunnen vallen met zwaarden zodat ik monsters kan doden
+Als speler wil ik een ketting kunnen gebruiken om mij te verplaatsen, aan te vallen en puzzels op te kunnen lossen
+Als speler wil ik met een speer kunnen aanvallen zodat ik niet te dicht bij vijanden hoef te komen
+Als speler wil ik een Tutorial zodat ik de game uitgelegd krijg, zodat ik weet wat ik kan
+
+Als speler Wil ik textboxes zodat ik extra informatie en immersie krijg
+
+Als speler wil ik cutscenes/splash art zodat ik immersie krijg
+
+Als developer wil ik loading screens zodat ik levels in kan laden
+
+Als speler wil ik puzzels zodat ik extra hindernissen heb om de game lastiger te maken
+
+Als speler wil ik Minion behaviour zodat ik kleine vijanden heb die ik moet verslaan
+
+Als speler wil ik Titan Behaviour zodat ik moeilijke bazen heb die ik moet verslaan
+
+Als speler wil ik Area transitions zodat ik het gevoel heb dat ik mij ook ergens anders bevindt
