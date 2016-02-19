@@ -7,9 +7,12 @@ public class EnemyBaseScript : MonoBehaviour
     public float BaseSpeed = 5;
     public bool PlayerInSight = false;
     public float TimeLeft = 10;
+    public int EnimBaseHealth = 2;
 
     //for test purposes
     public bool Attacked = false;
+    public TestCamScript foe;
+
     //-----------------
 	
 	void Start ()
@@ -20,6 +23,16 @@ public class EnemyBaseScript : MonoBehaviour
 	
 	void Update ()
     {
+        if (EnimBaseHealth == 0)
+        {
+            Destroy(this);
+        }
+
+        if (foe.Attacks == true)
+        {
+            EnimBaseHealth = EnimBaseHealth - 1;
+        }
+
         if (PlayerInSight != true)
         {
             EnimPos.transform.Translate(Vector3.left * BaseSpeed);
@@ -34,7 +47,7 @@ public class EnemyBaseScript : MonoBehaviour
                 TimeLeft = 10;
             }
 
-            if(TimeLeft < 10 | TimeLeft == 0)
+            if(TimeLeft < 10)
             {
                 Attacked = false;
             }
