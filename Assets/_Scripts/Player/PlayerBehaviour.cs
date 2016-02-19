@@ -1,80 +1,121 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerBehaviour : MonoBehaviour {
+public class PlayerBehaviour : MonoBehaviour
+{
 
     private Rigidbody2D playerRigidBody;
     // public Vector2 playerPos = Vector2.zero;
 
-    [SerializeField] private GameObject player;
-    [SerializeField] private BoxCollider2D playerCollider;
-    [SerializeField] private int playerState; // 0 = idle/grounded, 1 = aerial, 2 = walk, 3 = falling, 4 = hanging 999 = dood 
-    [SerializeField] private int playerDirection = 2; // 1 = Left, 2 = Right
-    [SerializeField] private int currentDirection = 2; // 1 = Left, 2 = Right;
-    [SerializeField] private float runSpeed;
-    [SerializeField] private float speedIncrease;
-    [SerializeField] private float maxSpeed;
-    [SerializeField] private float forceReset;
-    [SerializeField] private float jumpForce;
-    [SerializeField] private bool grounded;
+    [SerializeField]   private GameObject player;
+    [SerializeField]   private BoxCollider2D playerCollider;
+    [SerializeField]   private int playerState; // 0 = idle/grounded, 1 = aerial, 2 = walkLeft, 3 = walkRight 4 = falling, 5 = hanging 999 = dood 
+    [SerializeField]   private int playerDirection; // 1 = Left, 2 = Right
+    [SerializeField]   private float runSpeed;
+    [SerializeField]   private float speedIncrease;
+    [SerializeField]   private float maxSpeed;
+    [SerializeField]   private float forceReset;
+    [SerializeField]   private float jumpForce;
+    [SerializeField]   private bool grounded = false;
+    [SerializeField]   private bool isFacingRight;
+    [SerializeField]   private SpriteRenderer playerSprite;
+    [SerializeField]   private BoxCollider2D chainCollider;
+    [SerializeField]   private LineRenderer chainLineRenderer;
+    [SerializeField]   private float maxChainLength;
+                       private bool isClickedOnce;
+                       private float DCTimer;
+                       private Vector2 currentOffset;
+                       private Vector2 currentEndPos;
+                       private Vector2 endPoint;
+                       private Transform chainStart, chainEnd, groundCheck;
+                       private bool isAttacking = false;
+    private RaycastHit2D hit;
 
-
-    [SerializeField] private BoxCollider2D chainCollider;
-    [SerializeField] private SpriteRenderer chainSprite;
-    [SerializeField] private bool isClickedOnce;
-    [SerializeField] private float DCTimer;
-    [SerializeField] private Vector2 fwd;
-    [SerializeField] private RaycastHit2D hit;
 
 
     // Use this for initialization
-    void Awake() {
+    void Awake()
+    {
         playerRigidBody = player.GetComponent<Rigidbody2D>();
-        playerState = 0;
-        //chainCollider = GameObject.Find("chain").GetComponent<BoxCollider2D>();
-        chainSprite = GameObject.Find("chain").GetComponent<SpriteRenderer>();
-        chainSprite.enabled = false;
-        //chainCollider.enabled = false;
-        maxSpeed = 25;
-        fwd = transform.TransformDirection(Vector3.forward);
+        chainCollider = GameObject.Find("chain").GetComponent<BoxCollider2D>();
+        playerSprite = GameObject.Find("PlayerSprite").GetComponent<SpriteRenderer>();
+        chainLineRenderer = GameObject.Find("chain").GetComponent<LineRenderer>();
+        groundCheck = GameObject.Find("groundCheck").transform;
+        chainStart = GameObject.Find("chainStart").transform;
+        chainEnd = GameObject.Find("chainEnd").transform;
+        
     }
 
-    void Update() {
+    void Start()
+    {
+        isFacingRight = true;
+        chainCollider.enabled = false;
+        chainLineRenderer.enabled = false;
+        maxSpeed = 25;
+        endPoint = new Vector2(chainCollider.transform.position.x + 8, .3f);
+        currentOffset = chainCollider.offset;
+        currentEndPos = endPoint;
+
+    }
+
+    void Update()
+    {
         Attack();
         Walk();
+        Raycasting();        
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        
-        
+
+
     }
 
-    private void Walk() {
+
+    void Raycasting() {
+        Debug.DrawLine(this.transform.position, groundCheck.position, Color.green);
+        grounded = Physics2D.Linecast(this.transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
+
+        if (Input.GetMouseButtonDown(0)) {
+            Debug.DrawLine(chainStart.position, chainEnd.position, Color.red);
+            if (Physics2D.Linecast(chainStart.position, chainEnd.position, 1 << LayerMask.NameToLayer("Enemy")))
+            {
+                hit = Physics2D.Linecast(chainStart.position, chainEnd.position, 1 << LayerMask.NameToLayer("Enemy"));
+            }
+        
+        }
+
+    }
+
+
+    private void Walk()
+    {
         //Walk Left
         if (Input.GetKey(KeyCode.A))
         {
-                playerDirection = 1;
-                TurnPlayer();
+            playerDirection = 1;
+            StartCoroutine(TurnPlayer(playerDirection));
             if (runSpeed <= maxSpeed)
             {
                 runSpeed += speedIncrease;
                 playerRigidBody.AddForce(-transform.right * runSpeed);
             }
-            else {
+            else
+            {
                 runSpeed = maxSpeed;
             }
-                
+
         }
-        if (Input.GetKeyUp(KeyCode.A)) {
+        if (Input.GetKeyUp(KeyCode.A))
+        {
             runSpeed = 0;
         }
         //Walk Right
         if (Input.GetKey(KeyCode.D))
         {
-                playerDirection = 2;
-                TurnPlayer();
+            playerDirection = 2;
+            StartCoroutine(TurnPlayer(playerDirection));
             if (runSpeed <= maxSpeed)
             {
                 runSpeed += speedIncrease;
@@ -92,23 +133,25 @@ public class PlayerBehaviour : MonoBehaviour {
         //Crouch
         if (Input.GetKey(KeyCode.C))
         {
-           // Crouch();
+            // Crouch();
         }
         //Dodge
         if (Input.GetKey(KeyCode.LeftShift))
         {
-          //  Dodge();
+            //  Dodge();
         }
         //Jumps
         if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space))
         {
             // W
-            if (grounded) {
+            if (grounded)
+            {
                 grounded = false;
                 playerState = 1;
-                playerRigidBody.AddForce(transform.up * jumpForce);
+                playerRigidBody.AddForce(Vector2.up * jumpForce);
             }
-            else {
+            else
+            {
                 grounded = true;
             }
         }
@@ -136,24 +179,30 @@ public class PlayerBehaviour : MonoBehaviour {
         }
     }
 
-    void Attack() {
-        if (Input.GetMouseButtonDown(0)) {
+    void Attack()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            StopCoroutine(ChainAttack(.75f));
             StartCoroutine(ChainAttack(.75f));
 
         }
+        else {
+            StopCoroutine(ChainAttack(0f));
+            chainLineRenderer.SetPosition(0, transform.position);
+        }
     }
 
-    IEnumerator ChainAttack(float waitTime) {
-        StartCoroutine(DoubleClick(.2f));
-       // chainCollider.enabled = true;
-        if (Physics2D.Raycast(player.transform.position, transform.forward, 20)) {
-            print("chain shot");
-            Debug.DrawLine(player.transform.position, hit.point, Color.red);
-            print("There is something in front of the object!");
-            
-        }
+    IEnumerator ChainAttack(float waitTime)
+    {
+        StartCoroutine(DoubleClick(.15f));
+        chainCollider.enabled = true;
+        chainLineRenderer.enabled = true;
+        maxChainLength = 8;
+        chainLineRenderer.SetPosition(1, endPoint);
         yield return new WaitForSeconds(waitTime);
-        //chainCollider.enabled = false;
+        chainCollider.enabled = false;
+        chainLineRenderer.enabled = false;
     }
 
     IEnumerator DoubleClick(float waitTime)
@@ -173,7 +222,8 @@ public class PlayerBehaviour : MonoBehaviour {
             // Do Double Click things
             // Change shape of BoxCollider
         }
-        if (isClickedOnce) {
+        if (isClickedOnce)
+        {
             if ((Time.time - DCTimer) > waitTime)
             {
                 isClickedOnce = false;
@@ -183,28 +233,33 @@ public class PlayerBehaviour : MonoBehaviour {
         yield return new WaitForSeconds(waitTime);
     }
 
-    int CheckDirection(int currentDirection)
-    {
-        if (playerDirection == 1) { return 1; }
-        else if (playerDirection == 2) { return 2; }
-        else { Debug.Log("Something is wrong, playerDirection is other than 1 or 2"); return 0;}
-    }
-    //Laat de speler sprite omdraaien
-    private void TurnPlayer()
-    {
+    IEnumerator TurnPlayer(int playerDirection) {
+        yield return playerDirection;
+
         if (playerDirection == 1)
         {
-            playerDirection = 2;
-            //Player is facing left
-            //Turn player sprite right
+            playerSprite.color = Color.black;
+            playerState = 2;
+            isFacingRight = false;
         }
-        if (playerDirection == 2)
+        else if (playerDirection == 2)
         {
-            playerDirection = 1;
-            //Player is facing right
-            //Turn Sprite Left
+            playerSprite.color = Color.white;
+            playerState = 3;
+            isFacingRight = true;
         }
-        else { Debug.Log("Something is wrong, playerDirection is other than 1 or 2");}
 
+        switch (isFacingRight)
+        {
+            case true:
+                chainCollider.offset = -currentOffset * -1;
+                endPoint.x = -currentEndPos.x * -1;
+                break;
+            case false:
+                chainCollider.offset = currentOffset * -1;
+                endPoint.x = currentEndPos.x * -1;
+                break;
+        }
     }
+
 }
