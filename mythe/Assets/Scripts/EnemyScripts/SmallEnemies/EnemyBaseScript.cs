@@ -23,7 +23,7 @@ public class EnemyBaseScript : MonoBehaviour
 	
 	void Update ()
     {
-        if (EnimBaseHealth == 0)
+        if (EnimBaseHealth < 0)
         {
             Destroy(this);
         }
