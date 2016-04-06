@@ -46,10 +46,10 @@ public class ChainAttack : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Mouse0)) {
             targetPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             targetPos.z = 0;
+            Ray mouseRay = Camera.main.ScreenPointToRay(Input.mousePosition);
             chainLineRenderer.enabled = true;
             chainLineRenderer.SetPosition(0, chainStart.transform.position);
             chainLineRenderer.SetPosition(1, chainEnd.transform.position);
-
 
             hit = Physics2D.Raycast(chainStart.transform.position, targetPos - chainStart.transform.position, maxChainLength, mask);
 
@@ -58,11 +58,6 @@ public class ChainAttack : MonoBehaviour {
                 chainLineRenderer.SetPosition(0, chainStart.transform.position);
                 chainLineRenderer.SetPosition(1, hit.point);
                 chainLineRenderer.GetComponent<RopeRatio>().GrabPos = hit.point;
-
-                if (hit.collider.gameObject.layer == 11) {
-                    Debug.Log(hit.collider.gameObject.name);
-                    Debug.Log("hit");
-                }
             }
         }
 

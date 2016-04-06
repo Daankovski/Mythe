@@ -9,21 +9,24 @@ public class MoveToMouse : MonoBehaviour {
     GameObject chainStart;
     GameObject chainEnd;
     GameObject player;
+    Vector3 playerPos;
+    Vector3 crosshairPos;
+
 
 	void Start () {
         crosshair = GetComponent<SpriteRenderer>();
         chainStart = GameObject.Find("chainStart");
         chainEnd = GameObject.Find("chainEnd");
         player = GameObject.Find("Player");
+        
     }
 	
 	void Update () {
+        playerPos = player.transform.position;
         mousePosition = Input.mousePosition;
         mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
-        float mousePosX =  Mathf.Clamp(mousePosition.x, player.transform.position.x, chainEnd.transform.position.x);
-        float mousePosY = Mathf.Clamp(mousePosition.y, -10, 10);
-        crosshair.transform.position = new Vector2(mousePosX, mousePosY);
-
-
+        crosshairPos = mousePosition - playerPos;
+        float maxClamp = Vector3.Distance(chainEnd.transform.position, player.transform.position);
+        crosshair.transform.position = playerPos + Vector3.Normalize(crosshairPos) * Mathf.Clamp(crosshairPos.magnitude, 2, maxClamp);
 	}
 }
