@@ -73,9 +73,6 @@ public class PlayerBehaviour : MonoBehaviour
         {
             playerRigidBody.velocity = playerRigidBody.velocity.normalized * maxSpeed;
         }
-        else if (playerRigidBody.velocity.x < maxSpeed) {
-            playerRigidBody.velocity = playerRigidBody.velocity.normalized * maxSpeed;
-        }
 
         if (direction > 0 && !isFacingRight)
         {
