@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/RalphScene.unity
+- path: Assets/_Scenes/Level2Forest.unity
   isLoaded: 1
   isActive: 1
