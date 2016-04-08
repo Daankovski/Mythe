@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 7c3369860c5d6a24b9a57dd21a5dd366
+timeCreated: 1460026090
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: waterfall_animatie_0
+    21300002: waterfall_animatie_1
+    21300004: waterfall_animatie_2
+    21300006: waterfall_animatie_3
+    21300008: waterfall_animatie_4
+    21300010: waterfall_animatie_5
+    21300012: waterfall_animatie_6
+    21300014: waterfall_animatie_7
+    21300016: waterfall_animatie_8
+    21300018: waterfall_animatie_9
+    21300020: waterfall_animatie_10
+    21300022: waterfall_animatie_11
+    21300024: waterfall_animatie_12
+    21300026: waterfall_animatie_13
+    21300028: waterfall_animatie_14
+    21300030: waterfall_animatie_15
+    21300032: waterfall_animatie_16
+    21300034: waterfall_animatie_17
+    21300036: waterfall_animatie_18
+    21300038: waterfall_animatie_19
+    21300040: waterfall_animatie_20
+    21300042: waterfall_animatie_21
+    21300044: waterfall_animatie_22
+    21300046: waterfall_animatie_23
+    21300048: waterfall_animatie_24
+    21300050: waterfall_animatie_25
+    21300052: waterfall_animatie_26
+    21300054: waterfall_animatie_27
+    21300056: waterfall_animatie_28
+    21300058: waterfall_animatie_29
+    21300060: waterfall_animatie_30
+    21300062: waterfall_animatie_31
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: waterfall_animatie_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1618
+        width: 387
+        height: 748
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -90.76412, y: 177.12122}
+        - {x: -90.76412, y: -175.87878}
+        - {x: 91.23588, y: -175.87878}
+        - {x: 92.23588, y: -174.87878}
+        - {x: 92.23588, y: 176.12122}
+        - {x: 91.23588, y: 177.12122}
+    - name: waterfall_animatie_2
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1620
+        width: 391
+        height: 749
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.79236, y: 175.06146}
+        - {x: -91.79236, y: -175.93854}
+        - {x: 93.20764, y: -175.93854}
+        - {x: 93.20764, y: 177.06146}
+        - {x: -89.79236, y: 177.06146}
+    - name: waterfall_animatie_4
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1611
+        width: 391
+        height: 749
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 92.059784, y: 176.83057}
+        - {x: -91.940216, y: 176.83057}
+        - {x: -91.940216, y: -176.16943}
+        - {x: 91.059784, y: -176.16943}
+        - {x: 92.059784, y: -175.16943}
+        - {x: 93.059784, y: 82.83057}
+        - {x: 93.059784, y: 175.83057}
+    - name: waterfall_animatie_5
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 1601
+        width: 387
+        height: 748
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.02826, y: 177.12958}
+        - {x: -91.02826, y: -175.87042}
+        - {x: 91.97174, y: -175.87042}
+        - {x: 91.97174, y: 177.12958}
+    - name: waterfall_animatie_6
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 1601
+        width: 387
+        height: 748
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.06482, y: 177.12958}
+        - {x: -91.06482, y: -175.87042}
+        - {x: 91.93518, y: -175.87042}
+        - {x: 91.93518, y: 177.12958}
+    - name: waterfall_animatie_7
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 1594
+        width: 389
+        height: 747
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.59302, y: 176.33887}
+        - {x: -91.59302, y: -174.66113}
+        - {x: -90.59302, y: -175.66113}
+        - {x: 92.40698, y: -175.66113}
+        - {x: 92.40698, y: 176.33887}
+    - name: waterfall_animatie_8
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 1588
+        width: 387
+        height: 747
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.35217, y: 176.51825}
+        - {x: -91.35217, y: -175.48175}
+        - {x: 91.64783, y: -175.48175}
+        - {x: 91.64783, y: 176.51825}
+    - name: waterfall_animatie_9
+      rect:
+        serializedVersion: 2
+        x: 2998
+        y: 1599
+        width: 387
+        height: 748
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.141235, y: 177.18933}
+        - {x: -91.141235, y: -175.81067}
+        - {x: 91.858765, y: -175.81067}
+        - {x: 91.858765, y: 177.18933}
+    - name: waterfall_animatie_10
+      rect:
+        serializedVersion: 2
+        x: 3423
+        y: 1594
+        width: 389
+        height: 747
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.84888, y: 176.33887}
+        - {x: -91.84888, y: -174.66113}
+        - {x: -90.84888, y: -175.66113}
+        - {x: 92.15112, y: -175.66113}
+        - {x: 92.15112, y: 176.33887}
+    - name: waterfall_animatie_11
+      rect:
+        serializedVersion: 2
+        x: 3838
+        y: 1594
+        width: 387
+        height: 749
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.25757, y: 176.83887}
+        - {x: -91.25757, y: -176.16113}
+        - {x: 91.74243, y: -176.16113}
+        - {x: 91.74243, y: 176.83887}
+    - name: waterfall_animatie_12
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 861
+        width: 387
+        height: 748
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.17442, y: 177.2558}
+        - {x: -91.17442, y: -175.7442}
+        - {x: 91.82558, y: -175.7442}
+        - {x: 91.82558, y: 177.2558}
+    - name: waterfall_animatie_13
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 863
+        width: 391
+        height: 748
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 93.14784, y: 177.19601}
+        - {x: -91.85216, y: 177.19601}
+        - {x: -91.85216, y: -175.80399}
+        - {x: 91.14784, y: -175.80399}
+        - {x: 92.14784, y: -174.80399}
+        - {x: 92.14784, y: 167.19601}
+        - {x: 93.14784, y: 168.19601}
+    - name: waterfall_animatie_14
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 856
+        width: 391
+        height: 747
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.940216, y: 176.4053}
+        - {x: -91.940216, y: -175.5947}
+        - {x: 91.059784, y: -175.5947}
+        - {x: 92.059784, y: -174.5947}
+        - {x: 93.059784, y: 9.405304}
+        - {x: 93.059784, y: 176.4053}
+    - name: waterfall_animatie_15
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 846
+        width: 387
+        height: 748
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.02826, y: 177.20432}
+        - {x: -91.02826, y: -175.79568}
+        - {x: 91.97174, y: -175.79568}
+        - {x: 91.97174, y: 177.20432}
+    - name: waterfall_animatie_16
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 844
+        width: 387
+        height: 748
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.06482, y: 177.2641}
+        - {x: -91.06482, y: -175.7359}
+        - {x: 91.93518, y: -175.7359}
+        - {x: 91.93518, y: 177.2641}
+    - name: waterfall_animatie_17
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 837
+        width: 389
+        height: 749
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.59302, y: 176.97342}
+        - {x: -91.59302, y: -175.02658}
+        - {x: -90.59302, y: -176.02658}
+        - {x: 92.40698, y: -176.02658}
+        - {x: 92.40698, y: 176.97342}
+    - name: waterfall_animatie_18
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 831
+        width: 387
+        height: 748
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.35217, y: 177.1528}
+        - {x: -91.35217, y: -175.8472}
+        - {x: 91.64783, y: -175.8472}
+        - {x: 91.64783, y: 177.1528}
+    - name: waterfall_animatie_19
+      rect:
+        serializedVersion: 2
+        x: 2998
+        y: 843
+        width: 387
+        height: 749
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.141235, y: 176.794}
+        - {x: -91.141235, y: -176.206}
+        - {x: 91.858765, y: -176.206}
+        - {x: 91.858765, y: 176.794}
+    - name: waterfall_animatie_20
+      rect:
+        serializedVersion: 2
+        x: 3423
+        y: 837
+        width: 389
+        height: 749
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.84888, y: 176.97342}
+        - {x: -91.84888, y: -175.02658}
+        - {x: -90.84888, y: -176.02658}
+        - {x: 92.15112, y: -176.02658}
+        - {x: 92.15112, y: 176.97342}
+    - name: waterfall_animatie_21
+      rect:
+        serializedVersion: 2
+        x: 3838
+        y: 839
+        width: 387
+        height: 747
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.25757, y: 176.4136}
+        - {x: -91.25757, y: -175.5864}
+        - {x: 91.74243, y: -175.5864}
+        - {x: 91.74243, y: 176.4136}
+    - name: waterfall_animatie_22
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 56
+        width: 387
+        height: 749
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.05482, y: 176.82558}
+        - {x: -91.05482, y: -176.17442}
+        - {x: 91.94518, y: -176.17442}
+        - {x: 91.94518, y: 176.82558}
+    - name: waterfall_animatie_23
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 59
+        width: 392
+        height: 746
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 92.79733, y: 176.73589}
+        - {x: -92.20267, y: 176.73589}
+        - {x: -92.20267, y: -174.26411}
+        - {x: -91.20267, y: -175.26411}
+        - {x: 91.79733, y: -175.26411}
+        - {x: 92.79733, y: -174.26411}
+    - name: waterfall_animatie_24
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 56
+        width: 387
+        height: 749
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.230896, y: 176.82558}
+        - {x: -91.230896, y: -176.17442}
+        - {x: 91.769104, y: -176.17442}
+        - {x: 91.769104, y: 176.82558}
+    - name: waterfall_animatie_25
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 59
+        width: 387
+        height: 748
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -90.90863, y: 177.23589}
+        - {x: -90.90863, y: -175.76411}
+        - {x: 92.09137, y: -175.76411}
+        - {x: 92.09137, y: 177.23589}
+    - name: waterfall_animatie_26
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 59
+        width: 389
+        height: 748
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.44519, y: 177.23589}
+        - {x: -91.44519, y: -174.76411}
+        - {x: -90.44519, y: -175.76411}
+        - {x: 92.55481, y: -175.76411}
+        - {x: 92.55481, y: 177.23589}
+    - name: waterfall_animatie_27
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 61
+        width: 389
+        height: 748
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.59302, y: 177.17609}
+        - {x: -91.59302, y: -174.82391}
+        - {x: -90.59302, y: -175.82391}
+        - {x: 92.40698, y: -175.82391}
+        - {x: 92.40698, y: 177.17609}
+    - name: waterfall_animatie_28
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 65
+        width: 387
+        height: 747
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.35217, y: 176.55647}
+        - {x: -91.35217, y: -175.44353}
+        - {x: 91.64783, y: -175.44353}
+        - {x: 91.64783, y: 176.55647}
+    - name: waterfall_animatie_29
+      rect:
+        serializedVersion: 2
+        x: 2998
+        y: 63
+        width: 387
+        height: 748
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.141235, y: 177.11627}
+        - {x: -91.141235, y: -175.88373}
+        - {x: 91.858765, y: -175.88373}
+        - {x: 91.858765, y: 177.11627}
+    - name: waterfall_animatie_30
+      rect:
+        serializedVersion: 2
+        x: 3421
+        y: 65
+        width: 389
+        height: 749
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.78906, y: 177.05647}
+        - {x: -91.78906, y: -174.94353}
+        - {x: -90.78906, y: -175.94353}
+        - {x: 92.21094, y: -175.94353}
+        - {x: 92.21094, y: 177.05647}
+    - name: waterfall_animatie_31
+      rect:
+        serializedVersion: 2
+        x: 3836
+        y: 67
+        width: 387
+        height: 747
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.197754, y: 176.49667}
+        - {x: -91.197754, y: -175.50333}
+        - {x: 91.802246, y: -175.50333}
+        - {x: 91.802246, y: 176.49667}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

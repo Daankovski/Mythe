@@ -1,0 +1,1205 @@
+fileFormatVersion: 2
+guid: 4cede373470483241911786d8c512821
+timeCreated: 1458573258
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: KratosIDLEspritesheet_0
+    21300002: KratosIDLEspritesheet_1
+    21300004: KratosIDLEspritesheet_2
+    21300006: KratosIDLEspritesheet_3
+    21300008: KratosIDLEspritesheet_4
+    21300010: KratosIDLEspritesheet_5
+    21300012: KratosIDLEspritesheet_6
+    21300014: KratosIDLEspritesheet_7
+    21300016: KratosIDLEspritesheet_8
+    21300018: KratosIDLEspritesheet_9
+    21300020: KratosIDLEspritesheet_10
+    21300022: KratosIDLEspritesheet_11
+    21300024: KratosIDLEspritesheet_12
+    21300026: KratosIDLEspritesheet_13
+    21300028: KratosIDLEspritesheet_14
+    21300030: KratosIDLEspritesheet_15
+    21300032: KratosIDLEspritesheet_16
+    21300034: KratosIDLEspritesheet_17
+    21300036: KratosIDLEspritesheet_18
+    21300038: KratosIDLEspritesheet_19
+    21300040: KratosIDLEspritesheet_20
+    21300042: KratosIDLEspritesheet_21
+    21300044: KratosIDLEspritesheet_22
+    21300046: KratosIDLEspritesheet_23
+    21300048: KratosIDLEspritesheet_24
+    21300050: KratosIDLEspritesheet_25
+    21300052: KratosIDLEspritesheet_26
+    21300054: KratosIDLEspritesheet_27
+    21300056: KratosIDLEspritesheet_28
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: KratosIDLEspritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1770
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: -129}
+        - {x: 41, y: -134}
+        - {x: 95, y: -134}
+        - {x: 95, y: 20}
+        - {x: 89, y: 56}
+        - {x: 26, y: 136}
+        - {x: -78, y: 136}
+        - {x: -95, y: 108}
+        - {x: -95, y: -21}
+        - {x: -66, y: -27}
+        - {x: -7, y: -34}
+        - {x: -1, y: -38}
+        - {x: 0, y: -38}
+        - {x: -2, y: -38}
+        - {x: -9, y: -36}
+        - {x: -15, y: -45}
+        - {x: -15, y: -52}
+        - {x: -14, y: -65}
+        - {x: -31, y: -123}
+        - {x: -30, y: -136}
+        - {x: 25, y: -136}
+        - {x: 33, y: -126}
+        - {x: 33, y: -119}
+        - {x: 35, y: -118}
+    - name: KratosIDLEspritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1770
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: -128}
+        - {x: 36, y: -136}
+        - {x: 70, y: -136}
+        - {x: 95, y: -132}
+        - {x: 95, y: -40}
+        - {x: 73, y: 76}
+        - {x: 17, y: 136}
+        - {x: -88, y: 136}
+        - {x: -94, y: 120}
+        - {x: -94, y: -25}
+        - {x: -34, y: -34}
+        - {x: -4, y: -34}
+        - {x: -4, y: -28}
+        - {x: -6, y: -26}
+        - {x: -1, y: -23}
+        - {x: -4, y: -32}
+        - {x: -4, y: -37}
+        - {x: -10, y: -38}
+        - {x: -12, y: -40}
+        - {x: -17, y: -46}
+        - {x: -35, y: -136}
+        - {x: 21, y: -136}
+        - {x: 30, y: -132}
+        - {x: 32, y: -123}
+        - {x: 32, y: -118}
+    - name: KratosIDLEspritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1770
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44, y: -136}
+        - {x: 77, y: -136}
+        - {x: 95, y: -130}
+        - {x: 95, y: -66}
+        - {x: 67, y: 74}
+        - {x: 22, y: 134}
+        - {x: -62, y: 134}
+        - {x: -75, y: 55}
+        - {x: -64, y: 35}
+        - {x: -91, y: -10}
+        - {x: -91, y: -28}
+        - {x: -30, y: -136}
+        - {x: 23, y: -136}
+        - {x: 32, y: -133}
+        - {x: 36, y: -111}
+        - {x: 33, y: -128}
+      - - {x: -95, y: -20}
+        - {x: -94, y: -21}
+        - {x: -91, y: -20}
+        - {x: -91, y: -16}
+        - {x: -93, y: -14}
+        - {x: -95, y: -15}
+    - name: KratosIDLEspritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1770
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: -116}
+        - {x: 28, y: -128}
+        - {x: 31, y: -133}
+        - {x: 52, y: -136}
+        - {x: 92, y: -136}
+        - {x: 92, y: 8}
+        - {x: 34, y: 132}
+        - {x: -59, y: 132}
+        - {x: -64, y: 129}
+        - {x: -95, y: 98}
+        - {x: -95, y: -136}
+        - {x: 19, y: -136}
+        - {x: 28, y: -125}
+        - {x: 28, y: -118}
+        - {x: 23, y: -94}
+    - name: KratosIDLEspritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1771
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: -116}
+        - {x: 33, y: -130}
+        - {x: 35, y: -136}
+        - {x: 75, y: -136}
+        - {x: 95, y: -131}
+        - {x: 95, y: 11}
+        - {x: 36, y: 130}
+        - {x: -45, y: 130}
+        - {x: -87, y: 85}
+        - {x: -87, y: -81}
+        - {x: -42, y: -136}
+        - {x: 24, y: -136}
+        - {x: 34, y: -127}
+        - {x: 32, y: -111}
+    - name: KratosIDLEspritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1495
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: -133}
+        - {x: 59, y: -136}
+        - {x: 94, y: -136}
+        - {x: 95, y: -133}
+        - {x: 95, y: -48}
+        - {x: 51, y: 75}
+        - {x: 23, y: 129}
+        - {x: -87, y: 129}
+        - {x: -87, y: -100}
+        - {x: -77, y: -136}
+        - {x: 25, y: -136}
+        - {x: 33, y: -124}
+        - {x: 32, y: -110}
+        - {x: 33, y: -128}
+      - - {x: 88, y: -28}
+        - {x: 88, y: -30}
+        - {x: 91, y: -33}
+        - {x: 93, y: -33}
+        - {x: 95, y: -31}
+        - {x: 93, y: -26}
+        - {x: 90, y: -26}
+      - - {x: -48, y: -10}
+        - {x: -47, y: -13}
+        - {x: -35, y: -13}
+        - {x: -33, y: -11}
+        - {x: -34, y: -8}
+        - {x: -46, y: -8}
+      - - {x: -82, y: -2}
+        - {x: -84, y: -3}
+        - {x: -84, y: -6}
+        - {x: -81, y: -10}
+        - {x: -72, y: -10}
+        - {x: -71, y: -8}
+        - {x: -71, y: -4}
+        - {x: -75, y: -2}
+    - name: KratosIDLEspritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1494
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: -136}
+        - {x: 81, y: -136}
+        - {x: 95, y: -133}
+        - {x: 95, y: -36}
+        - {x: 70, y: 82}
+        - {x: 0, y: 129}
+        - {x: -52, y: 129}
+        - {x: -85, y: 79}
+        - {x: -85, y: -49}
+        - {x: -78, y: -72}
+        - {x: -26, y: -46}
+        - {x: -25, y: -45}
+        - {x: -17, y: -45}
+        - {x: -18, y: -45}
+        - {x: -29, y: -51}
+        - {x: -41, y: -136}
+        - {x: 25, y: -136}
+        - {x: 32, y: -127}
+        - {x: 33, y: -118}
+        - {x: 33, y: -128}
+      - - {x: -52, y: -119}
+        - {x: -51, y: -122}
+        - {x: -48, y: -122}
+        - {x: -46, y: -120}
+        - {x: -47, y: -117}
+        - {x: -50, y: -117}
+      - - {x: 91, y: -15}
+        - {x: 89, y: -17}
+        - {x: 89, y: -18}
+        - {x: 93, y: -23}
+        - {x: 95, y: -23}
+        - {x: 95, y: -17}
+        - {x: 93, y: -15}
+      - - {x: 87, y: -17}
+        - {x: 90, y: -16}
+        - {x: 90, y: -13}
+        - {x: 87, y: -12}
+        - {x: 85, y: -14}
+      - - {x: 81, y: 9}
+        - {x: 83, y: 7}
+        - {x: 86, y: 8}
+        - {x: 86, y: 11}
+        - {x: 84, y: 13}
+        - {x: 81, y: 12}
+      - - {x: -72, y: 113}
+        - {x: -70, y: 111}
+        - {x: -67, y: 112}
+        - {x: -67, y: 115}
+        - {x: -69, y: 117}
+        - {x: -72, y: 116}
+      - - {x: -28, y: 134}
+        - {x: -28, y: 136}
+        - {x: -33, y: 136}
+        - {x: -31, y: 133}
+    - name: KratosIDLEspritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1496
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: -119}
+        - {x: 34, y: -130}
+        - {x: 38, y: -136}
+        - {x: 95, y: -136}
+        - {x: 95, y: -66}
+        - {x: 54, y: 84}
+        - {x: -1, y: 125}
+        - {x: -36, y: 125}
+        - {x: -84, y: 104}
+        - {x: -84, y: -122}
+        - {x: -79, y: -136}
+        - {x: 26, y: -136}
+        - {x: 28, y: -134}
+        - {x: 34, y: -126}
+        - {x: 30, y: -88}
+      - - {x: -47, y: -130}
+        - {x: -46, y: -133}
+        - {x: -39, y: -133}
+        - {x: -37, y: -131}
+        - {x: -38, y: -128}
+        - {x: -43, y: -127}
+      - - {x: -60, y: -109}
+        - {x: -62, y: -110}
+        - {x: -62, y: -123}
+        - {x: -59, y: -125}
+        - {x: -56, y: -124}
+        - {x: -56, y: -110}
+        - {x: -58, y: -109}
+      - - {x: -58, y: -61}
+        - {x: -56, y: -63}
+        - {x: -53, y: -62}
+        - {x: -53, y: -58}
+        - {x: -55, y: -56}
+        - {x: -58, y: -57}
+      - - {x: -91, y: -42}
+        - {x: -92, y: -44}
+        - {x: -92, y: -49}
+        - {x: -89, y: -50}
+        - {x: -86, y: -50}
+        - {x: -85, y: -48}
+        - {x: -85, y: -42}
+      - - {x: -92, y: -27}
+        - {x: -92, y: -24}
+        - {x: -95, y: -23}
+        - {x: -95, y: -28}
+    - name: KratosIDLEspritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1495
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: -90}
+        - {x: 32, y: -126}
+        - {x: 39, y: -136}
+        - {x: 72, y: -136}
+        - {x: 95, y: -132}
+        - {x: 95, y: -76}
+        - {x: 52, y: 78}
+        - {x: -5, y: 123}
+        - {x: -15, y: 124}
+        - {x: -39, y: 124}
+        - {x: -50, y: 115}
+        - {x: -59, y: 94}
+        - {x: -35, y: 50}
+        - {x: -86, y: 52}
+        - {x: -86, y: 38}
+        - {x: -38, y: -10}
+        - {x: -21, y: -18}
+        - {x: -17, y: -14}
+        - {x: -17, y: -13}
+        - {x: -16, y: -17}
+        - {x: -24, y: -19}
+        - {x: -38, y: -25}
+        - {x: -55, y: -32}
+        - {x: -78, y: -47}
+        - {x: -82, y: -53}
+        - {x: -36, y: -136}
+        - {x: 23, y: -136}
+        - {x: 31, y: -127}
+        - {x: 33, y: -118}
+        - {x: 30, y: -102}
+      - - {x: -87, y: -61}
+        - {x: -87, y: -65}
+        - {x: -85, y: -67}
+        - {x: -83, y: -67}
+        - {x: -81, y: -65}
+        - {x: -81, y: -63}
+        - {x: -84, y: -60}
+    - name: KratosIDLEspritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 1494
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: -131}
+        - {x: 42, y: -136}
+        - {x: 95, y: -136}
+        - {x: 95, y: 71}
+        - {x: 7, y: 124}
+        - {x: -55, y: 124}
+        - {x: -88, y: 104}
+        - {x: -88, y: -105}
+        - {x: -76, y: -136}
+        - {x: 22, y: -136}
+        - {x: 28, y: -131}
+        - {x: 32, y: -125}
+        - {x: 32, y: -111}
+      - - {x: -91, y: 27}
+        - {x: -89, y: 25}
+        - {x: -86, y: 26}
+        - {x: -86, y: 30}
+        - {x: -88, y: 32}
+        - {x: -91, y: 31}
+    - name: KratosIDLEspritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1218
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: -127}
+        - {x: 32, y: -136}
+        - {x: 79, y: -136}
+        - {x: 95, y: -132}
+        - {x: 95, y: -30}
+        - {x: 73, y: 59}
+        - {x: 17, y: 119}
+        - {x: -52, y: 119}
+        - {x: -69, y: 99}
+        - {x: -94, y: 56}
+        - {x: -94, y: 37}
+        - {x: -78, y: 12}
+        - {x: -47, y: -11}
+        - {x: -29, y: -21}
+        - {x: -25, y: -18}
+        - {x: -75, y: -56}
+        - {x: -84, y: -65}
+        - {x: -50, y: -136}
+        - {x: 19, y: -136}
+        - {x: 29, y: -128}
+        - {x: 30, y: -118}
+      - - {x: -90, y: 71}
+        - {x: -87, y: 72}
+        - {x: -87, y: 75}
+        - {x: -90, y: 76}
+        - {x: -92, y: 74}
+      - - {x: 18, y: 114}
+        - {x: 19, y: 111}
+        - {x: 26, y: 111}
+        - {x: 28, y: 113}
+        - {x: 27, y: 116}
+        - {x: 20, y: 116}
+      - - {x: 54, y: 128}
+        - {x: 54, y: 116}
+        - {x: 95, y: 116}
+        - {x: 95, y: 128}
+    - name: KratosIDLEspritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1221
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: -106}
+        - {x: 33, y: -115}
+        - {x: 32, y: -127}
+        - {x: 36, y: -132}
+        - {x: 86, y: -136}
+        - {x: 90, y: -136}
+        - {x: 95, y: -125}
+        - {x: 95, y: -70}
+        - {x: 47, y: 79}
+        - {x: 1, y: 125}
+        - {x: -95, y: 125}
+        - {x: -95, y: -55}
+        - {x: -91, y: -66}
+        - {x: -37, y: -136}
+        - {x: 22, y: -136}
+        - {x: 27, y: -133}
+        - {x: 32, y: -124}
+        - {x: 33, y: -118}
+      - - {x: 89, y: 113}
+        - {x: 92, y: 114}
+        - {x: 92, y: 117}
+        - {x: 89, y: 118}
+        - {x: 87, y: 116}
+      - - {x: -61, y: 116}
+        - {x: -59, y: 114}
+        - {x: -56, y: 115}
+        - {x: -56, y: 118}
+        - {x: -58, y: 120}
+        - {x: -61, y: 119}
+      - - {x: -20, y: 125}
+        - {x: -24, y: 122}
+        - {x: -24, y: 116}
+        - {x: -21, y: 114}
+        - {x: -18, y: 114}
+        - {x: -10, y: 121}
+        - {x: -10, y: 123}
+        - {x: -11, y: 125}
+      - - {x: -95, y: 119}
+        - {x: -92, y: 120}
+        - {x: -92, y: 123}
+        - {x: -94, y: 125}
+        - {x: -95, y: 125}
+    - name: KratosIDLEspritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1223
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: -136}
+        - {x: 68, y: -136}
+        - {x: 95, y: -128}
+        - {x: 95, y: -50}
+        - {x: 67, y: 46}
+        - {x: -5, y: 115}
+        - {x: -57, y: 115}
+        - {x: -75, y: 81}
+        - {x: -51, y: 47}
+        - {x: -41, y: 41}
+        - {x: -33, y: 24}
+        - {x: -31, y: 20}
+        - {x: -57, y: 31}
+        - {x: -92, y: 44}
+        - {x: -95, y: 45}
+        - {x: -95, y: 22}
+        - {x: -94, y: 19}
+        - {x: -69, y: -76}
+        - {x: -61, y: -76}
+        - {x: -44, y: -73}
+        - {x: -33, y: -136}
+        - {x: 25, y: -136}
+        - {x: 33, y: -127}
+        - {x: 31, y: -102}
+        - {x: 33, y: -128}
+      - - {x: 37, y: 73}
+        - {x: 45, y: 69}
+        - {x: 48, y: 69}
+        - {x: 50, y: 71}
+        - {x: 49, y: 77}
+        - {x: 49, y: 79}
+        - {x: 37, y: 79}
+      - - {x: -27, y: 136}
+        - {x: -27, y: 134}
+        - {x: -23, y: 130}
+        - {x: -16, y: 130}
+        - {x: -4, y: 133}
+        - {x: -4, y: 136}
+    - name: KratosIDLEspritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1222
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: -93}
+        - {x: 32, y: -127}
+        - {x: 34, y: -136}
+        - {x: 72, y: -136}
+        - {x: 95, y: -130}
+        - {x: 95, y: -61}
+        - {x: 82, y: -3}
+        - {x: 23, y: 105}
+        - {x: -3, y: 117}
+        - {x: -55, y: 117}
+        - {x: -74, y: 82}
+        - {x: -47, y: 42}
+        - {x: -94, y: 49}
+        - {x: -95, y: 49}
+        - {x: -95, y: -16}
+        - {x: -44, y: -134}
+        - {x: -39, y: -136}
+        - {x: 25, y: -136}
+        - {x: 32, y: -127}
+        - {x: 33, y: -120}
+        - {x: 30, y: -102}
+      - - {x: 0, y: 111}
+        - {x: -2, y: 109}
+        - {x: -1, y: 106}
+        - {x: 6, y: 106}
+        - {x: 9, y: 109}
+        - {x: 9, y: 111}
+        - {x: 6, y: 112}
+      - - {x: 92, y: 112}
+        - {x: 95, y: 113}
+        - {x: 95, y: 116}
+        - {x: 92, y: 117}
+        - {x: 90, y: 115}
+      - - {x: -92, y: 120}
+        - {x: -92, y: 123}
+        - {x: -95, y: 124}
+        - {x: -95, y: 119}
+      - - {x: -17, y: 122}
+        - {x: -16, y: 119}
+        - {x: -13, y: 119}
+        - {x: -11, y: 121}
+        - {x: -12, y: 124}
+        - {x: -15, y: 124}
+      - - {x: 35, y: 119}
+        - {x: 38, y: 120}
+        - {x: 38, y: 123}
+        - {x: 35, y: 124}
+        - {x: 33, y: 122}
+    - name: KratosIDLEspritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1220
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: -136}
+        - {x: 95, y: -136}
+        - {x: 95, y: -30}
+        - {x: 58, y: 84}
+        - {x: 8, y: 118}
+        - {x: -93, y: 118}
+        - {x: -93, y: 4}
+        - {x: -41, y: -22}
+        - {x: -27, y: -21}
+        - {x: -23, y: -19}
+        - {x: -58, y: -40}
+        - {x: -77, y: -53}
+        - {x: -81, y: -61}
+        - {x: -33, y: -136}
+        - {x: 22, y: -136}
+        - {x: 31, y: -129}
+        - {x: 32, y: -119}
+        - {x: 32, y: -128}
+      - - {x: -93, y: 121}
+        - {x: -90, y: 122}
+        - {x: -90, y: 125}
+        - {x: -93, y: 126}
+        - {x: -95, y: 124}
+    - name: KratosIDLEspritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 945
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: -128}
+        - {x: 40, y: -132}
+        - {x: 95, y: -132}
+        - {x: 95, y: -26}
+        - {x: 68, y: 89}
+        - {x: 12, y: 119}
+        - {x: -48, y: 119}
+        - {x: -60, y: 108}
+        - {x: -61, y: 85}
+        - {x: -51, y: 64}
+        - {x: -35, y: 45}
+        - {x: -30, y: 45}
+        - {x: -24, y: 48}
+        - {x: -27, y: 41}
+        - {x: -88, y: 49}
+        - {x: -89, y: 45}
+        - {x: -89, y: 38}
+        - {x: -70, y: 17}
+        - {x: -50, y: -5}
+        - {x: -27, y: -20}
+        - {x: -22, y: -19}
+        - {x: -21, y: -16}
+        - {x: -18, y: -17}
+        - {x: -24, y: -20}
+        - {x: -29, y: -21}
+        - {x: -62, y: -30}
+        - {x: -89, y: -51}
+        - {x: -89, y: -61}
+        - {x: -34, y: -136}
+        - {x: 24, y: -136}
+        - {x: 31, y: -127}
+        - {x: 33, y: -124}
+        - {x: 33, y: -112}
+    - name: KratosIDLEspritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 945
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: -128}
+        - {x: 40, y: -132}
+        - {x: 62, y: -130}
+        - {x: 88, y: -131}
+        - {x: 95, y: -126}
+        - {x: 95, y: 14}
+        - {x: 39, y: 120}
+        - {x: -48, y: 120}
+        - {x: -67, y: 86}
+        - {x: -88, y: 51}
+        - {x: -88, y: 40}
+        - {x: -76, y: 27}
+        - {x: -50, y: 0}
+        - {x: -40, y: -8}
+        - {x: -83, y: -41}
+        - {x: -85, y: -48}
+        - {x: -83, y: -52}
+        - {x: -26, y: -51}
+        - {x: -26, y: -48}
+        - {x: -19, y: -48}
+        - {x: -21, y: -48}
+        - {x: -24, y: -49}
+        - {x: -27, y: -57}
+        - {x: -25, y: -67}
+        - {x: -38, y: -136}
+        - {x: 29, y: -136}
+        - {x: 33, y: -123}
+        - {x: 32, y: -111}
+        - {x: 34, y: -117}
+    - name: KratosIDLEspritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 945
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63, y: -136}
+        - {x: 95, y: -136}
+        - {x: 95, y: 29}
+        - {x: 37, y: 121}
+        - {x: -86, y: 121}
+        - {x: -86, y: -60}
+        - {x: -27, y: -46}
+        - {x: -18, y: -45}
+        - {x: -20, y: -45}
+        - {x: -26, y: -56}
+        - {x: -31, y: -123}
+        - {x: -30, y: -134}
+        - {x: -28, y: -136}
+        - {x: 26, y: -136}
+        - {x: 34, y: -124}
+        - {x: 34, y: -128}
+        - {x: 41, y: -132}
+    - name: KratosIDLEspritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 946
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: -136}
+        - {x: 71, y: -136}
+        - {x: 95, y: -131}
+        - {x: 95, y: -66}
+        - {x: 54, y: 73}
+        - {x: 29, y: 88}
+        - {x: -3, y: 120}
+        - {x: -83, y: 120}
+        - {x: -89, y: 111}
+        - {x: -89, y: -68}
+        - {x: -45, y: -136}
+        - {x: 29, y: -136}
+        - {x: 34, y: -120}
+        - {x: 33, y: -123}
+        - {x: 34, y: -129}
+    - name: KratosIDLEspritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 946
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: -129}
+        - {x: 40, y: -134}
+        - {x: 67, y: -136}
+        - {x: 95, y: -136}
+        - {x: 95, y: 14}
+        - {x: 34, y: 121}
+        - {x: -41, y: 121}
+        - {x: -49, y: 105}
+        - {x: -52, y: 98}
+        - {x: -53, y: 93}
+        - {x: -91, y: 87}
+        - {x: -91, y: -98}
+        - {x: -79, y: -136}
+        - {x: 25, y: -136}
+        - {x: 34, y: -125}
+        - {x: 30, y: -107}
+        - {x: 34, y: -118}
+    - name: KratosIDLEspritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 669
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: -122}
+        - {x: 34, y: -128}
+        - {x: 41, y: -132}
+        - {x: 56, y: -131}
+        - {x: 95, y: -131}
+        - {x: 95, y: -28}
+        - {x: 78, y: 87}
+        - {x: 1, y: 124}
+        - {x: -65, y: 124}
+        - {x: -90, y: 78}
+        - {x: -90, y: -55}
+        - {x: -31, y: -136}
+        - {x: 25, y: -136}
+        - {x: 34, y: -125}
+        - {x: 33, y: -109}
+        - {x: 33, y: -111}
+    - name: KratosIDLEspritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 669
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: -133}
+        - {x: 95, y: -134}
+        - {x: 95, y: 10}
+        - {x: 81, y: 93}
+        - {x: 1, y: 126}
+        - {x: -56, y: 126}
+        - {x: -91, y: 74}
+        - {x: -91, y: -51}
+        - {x: -34, y: -136}
+        - {x: 27, y: -136}
+        - {x: 33, y: -126}
+        - {x: 34, y: -117}
+        - {x: 34, y: -128}
+    - name: KratosIDLEspritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 670
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: -128}
+        - {x: 40, y: -134}
+        - {x: 74, y: -136}
+        - {x: 91, y: -136}
+        - {x: 95, y: -125}
+        - {x: 95, y: -68}
+        - {x: 63, y: 73}
+        - {x: -2, y: 127}
+        - {x: -31, y: 127}
+        - {x: -48, y: 118}
+        - {x: -54, y: 92}
+        - {x: -33, y: 55}
+        - {x: -74, y: 55}
+        - {x: -79, y: 51}
+        - {x: -75, y: 41}
+        - {x: -48, y: 12}
+        - {x: -93, y: -20}
+        - {x: -93, y: -45}
+        - {x: -30, y: -135}
+        - {x: -29, y: -136}
+        - {x: 24, y: -136}
+        - {x: 33, y: -126}
+        - {x: 31, y: -106}
+    - name: KratosIDLEspritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 670
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: -129}
+        - {x: 41, y: -134}
+        - {x: 49, y: -136}
+        - {x: 95, y: -136}
+        - {x: 95, y: 53}
+        - {x: 30, y: 129}
+        - {x: -39, y: 129}
+        - {x: -44, y: 120}
+        - {x: -52, y: 102}
+        - {x: -26, y: 56}
+        - {x: -22, y: 56}
+        - {x: -83, y: 55}
+        - {x: -92, y: -9}
+        - {x: -92, y: -27}
+        - {x: -73, y: -33}
+        - {x: -47, y: -36}
+        - {x: -40, y: -136}
+        - {x: 24, y: -136}
+        - {x: 33, y: -125}
+        - {x: 31, y: -112}
+        - {x: 38, y: -90}
+      - - {x: -93, y: -114}
+        - {x: -91, y: -116}
+        - {x: -88, y: -115}
+        - {x: -88, y: -109}
+        - {x: -90, y: -107}
+        - {x: -93, y: -108}
+    - name: KratosIDLEspritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 669
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: -102}
+        - {x: 34, y: -115}
+        - {x: 32, y: -128}
+        - {x: 41, y: -133}
+        - {x: 48, y: -136}
+        - {x: 95, y: -136}
+        - {x: 95, y: 76}
+        - {x: 24, y: 132}
+        - {x: -34, y: 132}
+        - {x: -68, y: 107}
+        - {x: -93, y: 24}
+        - {x: -93, y: -37}
+        - {x: -31, y: -136}
+        - {x: 23, y: -136}
+        - {x: 28, y: -130}
+        - {x: 32, y: -123}
+        - {x: 32, y: -117}
+    - name: KratosIDLEspritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 394
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 77, y: -136}
+        - {x: 91, y: -136}
+        - {x: 95, y: -127}
+        - {x: 95, y: 63}
+        - {x: 93, y: 93}
+        - {x: 20, y: 133}
+        - {x: -54, y: 133}
+        - {x: -78, y: 56}
+        - {x: -94, y: 38}
+        - {x: -94, y: -84}
+        - {x: -38, y: -34}
+        - {x: -6, y: -33}
+        - {x: -3, y: -28}
+        - {x: -5, y: -26}
+        - {x: -3, y: -26}
+        - {x: -3, y: -31}
+        - {x: -5, y: -33}
+        - {x: -5, y: -37}
+        - {x: -12, y: -37}
+        - {x: -19, y: -45}
+        - {x: -41, y: -136}
+        - {x: 25, y: -136}
+        - {x: 33, y: -124}
+        - {x: 33, y: -128}
+        - {x: 41, y: -132}
+    - name: KratosIDLEspritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 395
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: -102}
+        - {x: 34, y: -87}
+        - {x: 32, y: -129}
+        - {x: 41, y: -134}
+        - {x: 63, y: -136}
+        - {x: 92, y: -136}
+        - {x: 95, y: -129}
+        - {x: 95, y: -42}
+        - {x: 70, y: 69}
+        - {x: 17, y: 136}
+        - {x: -66, y: 136}
+        - {x: -95, y: 97}
+        - {x: -95, y: -21}
+        - {x: -87, y: -36}
+        - {x: -22, y: -35}
+        - {x: -5, y: -34}
+        - {x: -3, y: -28}
+        - {x: -4, y: -28}
+        - {x: -5, y: -38}
+        - {x: -14, y: -39}
+        - {x: -19, y: -47}
+        - {x: -32, y: -120}
+        - {x: -30, y: -136}
+        - {x: 22, y: -136}
+        - {x: 28, y: -131}
+        - {x: 32, y: -124}
+        - {x: 32, y: -118}
+    - name: KratosIDLEspritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 395
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: -96}
+        - {x: 33, y: -116}
+        - {x: 33, y: -130}
+        - {x: 42, y: -135}
+        - {x: 55, y: -136}
+        - {x: 93, y: -136}
+        - {x: 95, y: -128}
+        - {x: 95, y: -11}
+        - {x: 82, y: 106}
+        - {x: 20, y: 135}
+        - {x: -36, y: 135}
+        - {x: -42, y: 108}
+        - {x: -25, y: 68}
+        - {x: -21, y: 62}
+        - {x: -64, y: 57}
+        - {x: -74, y: 55}
+        - {x: -60, y: 30}
+        - {x: -93, y: -9}
+        - {x: -94, y: -10}
+        - {x: -94, y: -18}
+        - {x: -59, y: -32}
+        - {x: -5, y: -34}
+        - {x: -2, y: -28}
+        - {x: -2, y: -27}
+        - {x: -3, y: -33}
+        - {x: -3, y: -38}
+        - {x: -12, y: -35}
+        - {x: -21, y: -59}
+        - {x: -35, y: -136}
+        - {x: 24, y: -136}
+        - {x: 29, y: -131}
+        - {x: 33, y: -124}
+        - {x: 33, y: -119}
+    - name: KratosIDLEspritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 395
+        width: 190
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -136}
+        - {x: 78, y: -136}
+        - {x: 95, y: -134}
+        - {x: 95, y: -4}
+        - {x: 88, y: 81}
+        - {x: 8, y: 136}
+        - {x: -33, y: 136}
+        - {x: -41, y: 115}
+        - {x: -31, y: 86}
+        - {x: -24, y: 71}
+        - {x: -19, y: 65}
+        - {x: -71, y: 62}
+        - {x: -81, y: 50}
+        - {x: -95, y: 17}
+        - {x: -95, y: -15}
+        - {x: -93, y: -16}
+        - {x: -59, y: -26}
+        - {x: -51, y: -28}
+        - {x: -35, y: -31}
+        - {x: -26, y: -32}
+        - {x: -7, y: -32}
+        - {x: -4, y: -29}
+        - {x: -4, y: -28}
+        - {x: -4, y: -31}
+        - {x: -17, y: -48}
+        - {x: -31, y: -121}
+        - {x: -29, y: -136}
+        - {x: 25, y: -136}
+        - {x: 33, y: -130}
+        - {x: 34, y: -112}
+        - {x: 33, y: -130}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
