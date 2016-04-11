@@ -5,7 +5,7 @@ public class TestHealth : MonoBehaviour
 {
 
     public int Health = 5;
-    public EnemyBaseScript EnimProperty;
+    public EnemyAttack EnimProperty;
 
 	void Update ()
     {

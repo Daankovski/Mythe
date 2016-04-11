@@ -1,0 +1,386 @@
+fileFormatVersion: 2
+guid: c2221aeb8a6cfcb45b3853ac01cfb45b
+timeCreated: 1460116706
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Walk_Sheet_0
+    21300002: Walk_Sheet_1
+    21300004: Walk_Sheet_2
+    21300006: Walk_Sheet_3
+    21300008: Walk_Sheet_4
+    21300010: Walk_Sheet_5
+    21300012: Walk_Sheet_6
+    21300014: Walk_Sheet_7
+    21300016: Walk_Sheet_8
+    21300018: Walk_Sheet_9
+    21300020: Walk_Sheet_10
+    21300022: Walk_Sheet_11
+    21300024: Walk_Sheet_12
+    21300026: Walk_Sheet_13
+    21300028: Walk_Sheet_14
+    21300030: Walk_Sheet_15
+    21300032: Walk_Sheet_16
+    21300034: Walk_Sheet_17
+    21300036: Walk_Sheet_18
+    21300038: Walk_Sheet_19
+    21300040: Walk_Sheet_20
+    21300042: Walk_Sheet_21
+    21300044: Walk_Sheet_22
+    21300046: Walk_Sheet_23
+    21300048: Walk_Sheet_24
+    21300050: Walk_Sheet_25
+    21300052: Walk_Sheet_26
+    21300054: Walk_Sheet_27
+    21300056: Walk_Sheet_28
+    21300058: Walk_Sheet_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Walk_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1965
+        width: 317
+        height: 632
+      alignment: 9
+      pivot: {x: .607824385, y: .481953681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1963
+        width: 292
+        height: 634
+      alignment: 9
+      pivot: {x: .568926036, y: .482372582}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1961
+        width: 265
+        height: 636
+      alignment: 9
+      pivot: {x: .507448375, y: .478157848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1959
+        width: 232
+        height: 636
+      alignment: 9
+      pivot: {x: .436892271, y: .483261794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1957
+        width: 217
+        height: 638
+      alignment: 9
+      pivot: {x: .381283522, y: .485727727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 1953
+        width: 239
+        height: 640
+      alignment: 9
+      pivot: {x: .402577162, y: .488379657}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 1953
+        width: 240
+        height: 640
+      alignment: 9
+      pivot: {x: .391532391, y: .488930136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 1953
+        width: 247
+        height: 640
+      alignment: 9
+      pivot: {x: .389808565, y: .482352823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2253
+        y: 1954
+        width: 254
+        height: 637
+      alignment: 9
+      pivot: {x: .371646434, y: .480542332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 1955
+        width: 262
+        height: 635
+      alignment: 9
+      pivot: {x: .377105027, y: .487974435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1955
+        width: 270
+        height: 634
+      alignment: 9
+      pivot: {x: .367516637, y: .488319367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 3110
+        y: 1955
+        width: 279
+        height: 634
+      alignment: 9
+      pivot: {x: .352783203, y: .480945468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 3412
+        y: 1959
+        width: 309
+        height: 630
+      alignment: 9
+      pivot: {x: .518651843, y: .48102951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 3729
+        y: 1965
+        width: 340
+        height: 626
+      alignment: 9
+      pivot: {x: .625729561, y: .476564854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1318
+        width: 379
+        height: 625
+      alignment: 9
+      pivot: {x: .600806713, y: .655980051}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1319
+        width: 416
+        height: 626
+      alignment: 9
+      pivot: {x: .622775733, y: .65001756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1319
+        width: 416
+        height: 624
+      alignment: 9
+      pivot: {x: .622775733, y: .648302138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 1321
+        width: 416
+        height: 622
+      alignment: 9
+      pivot: {x: .633381784, y: .650794327}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 1323
+        width: 421
+        height: 618
+      alignment: 9
+      pivot: {x: .615521431, y: .644441366}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 1323
+        width: 426
+        height: 616
+      alignment: 9
+      pivot: {x: .606476247, y: .645588636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2575
+        y: 1323
+        width: 412
+        height: 616
+      alignment: 9
+      pivot: {x: .60039866, y: .644910157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 3007
+        y: 1319
+        width: 396
+        height: 622
+      alignment: 9
+      pivot: {x: .596478701, y: .65232569}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 3421
+        y: 1319
+        width: 380
+        height: 624
+      alignment: 9
+      pivot: {x: .595835447, y: .654703379}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 686
+        width: 364
+        height: 625
+      alignment: 9
+      pivot: {x: .596524358, y: .650285184}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 687
+        width: 348
+        height: 626
+      alignment: 9
+      pivot: {x: .592655599, y: .649260998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 685
+        width: 334
+        height: 628
+      alignment: 9
+      pivot: {x: .596539319, y: .65108496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 689
+        width: 417
+        height: 620
+      alignment: 9
+      pivot: {x: .627333999, y: .646048248}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 689
+        width: 422
+        height: 618
+      alignment: 9
+      pivot: {x: .618982971, y: .64100486}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 690
+        width: 426
+        height: 615
+      alignment: 9
+      pivot: {x: .612594664, y: .643388331}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 2401
+        y: 687
+        width: 348
+        height: 626
+      alignment: 9
+      pivot: {x: .592654884, y: .652400076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

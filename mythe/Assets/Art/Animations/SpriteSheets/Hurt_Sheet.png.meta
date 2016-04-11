@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: 4cadc45bcb6dc5f43988e7b429488510
+timeCreated: 1459761400
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Hurt_Sheet_0
+    21300002: Hurt_Sheet_1
+    21300004: Hurt_Sheet_2
+    21300006: Hurt_Sheet_3
+    21300008: Hurt_Sheet_4
+    21300010: Hurt_Sheet_5
+    21300012: Hurt_Sheet_6
+    21300014: Hurt_Sheet_7
+    21300016: Hurt_Sheet_8
+    21300018: Hurt_Sheet_9
+    21300020: Hurt_Sheet_10
+    21300022: Hurt_Sheet_11
+    21300024: Hurt_Sheet_12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Hurt_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1613
+        width: 330
+        height: 634
+      alignment: 9
+      pivot: {x: .563034296, y: .65212369}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1613
+        width: 323
+        height: 631
+      alignment: 9
+      pivot: {x: .540106356, y: .65044713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1612
+        width: 315
+        height: 628
+      alignment: 9
+      pivot: {x: .502016664, y: .653895855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1614
+        width: 307
+        height: 626
+      alignment: 9
+      pivot: {x: .466491908, y: .650633991}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 1616
+        width: 311
+        height: 619
+      alignment: 9
+      pivot: {x: .529606938, y: .660646677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1619
+        width: 318
+        height: 624
+      alignment: 9
+      pivot: {x: .575480938, y: .656611919}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 974
+        width: 332
+        height: 627
+      alignment: 9
+      pivot: {x: .600988448, y: .65586257}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 966
+        width: 352
+        height: 626
+      alignment: 9
+      pivot: {x: .626638412, y: .658850312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 964
+        width: 382
+        height: 621
+      alignment: 9
+      pivot: {x: .622012615, y: .665139496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 962
+        width: 363
+        height: 626
+      alignment: 9
+      pivot: {x: .627524137, y: .659865141}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 963
+        width: 353
+        height: 629
+      alignment: 9
+      pivot: {x: .617465854, y: .657082736}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 317
+        width: 343
+        height: 632
+      alignment: 9
+      pivot: {x: .607759774, y: .654318094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hurt_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 321
+        width: 337
+        height: 634
+      alignment: 9
+      pivot: {x: .585017085, y: .649947762}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
