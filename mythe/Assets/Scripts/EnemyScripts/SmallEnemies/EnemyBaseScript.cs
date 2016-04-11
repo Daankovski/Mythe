@@ -19,6 +19,23 @@ public class EnemyBaseScript : MonoBehaviour
     {
 	
 	}
+
+    void AttackState()
+    {
+
+    }
+
+    void PatrolState()
+    {
+
+    }
+
+    void DeadState()
+    {
+
+    }
+
+    //and maybe more states later.
 	
 	
 	void Update ()
