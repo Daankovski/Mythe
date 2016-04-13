@@ -26,9 +26,9 @@ public class GrapplingHook : MonoBehaviour {
         line = GameObject.Find("grapplinghook").GetComponent<LineRenderer>();
         line.enabled = false;        
         maxDistance = 20f;
-        
-        
-	}
+
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -55,7 +55,7 @@ public class GrapplingHook : MonoBehaviour {
 
         }
 
-        if (Input.GetKeyDown(KeyCode.R)) {
+        if (Input.GetKey(KeyCode.R)) {
             line.SetPosition(0, transform.position);
             playerBehaviour.MaxSpeed = 20f;
 

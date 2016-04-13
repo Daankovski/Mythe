@@ -18,9 +18,6 @@ public class PlayerBehaviour : MonoBehaviour
     GameObject chainCrosshair;
     public LayerMask mask;
 
-
-
-    // Use this for initialization
     void Awake()
     {
         playerCollider = GameObject.Find("Player").GetComponent<BoxCollider2D>();
@@ -35,7 +32,6 @@ public class PlayerBehaviour : MonoBehaviour
         isFacingRight = true;
         maxSpeed = 7;
         jumpForce = 600f;
-        //playerAnims.Play("Idle");
     }
 
     void Update()
@@ -51,11 +47,9 @@ public class PlayerBehaviour : MonoBehaviour
 
 
     void GroundCheck() { // Check if there is a collision with the ground via Raycast.
-       // groundCheck = GameObject.Find("groundCheck").transform;
         Debug.DrawLine(transform.position, groundCheck.position, Color.green);
         isGrounded = Physics2D.Linecast(transform.position, groundCheck.position, mask);
         playerAnims.SetBool("isGrounded",isGrounded);
-
     }
 
 
@@ -66,12 +60,17 @@ public class PlayerBehaviour : MonoBehaviour
 
         if (direction * playerRigidBody.velocity.x < maxSpeed || direction * playerRigidBody.velocity.x > maxSpeed)
         {
-            playerRigidBody.AddForce(Vector2.right * direction * movementForce);
+            playerRigidBody.AddForce(new Vector2(1,0) * direction * movementForce);
         }
 
         if (playerRigidBody.velocity.x > maxSpeed)
         {
             playerRigidBody.velocity = playerRigidBody.velocity.normalized * maxSpeed;
+        }
+
+        if (playerRigidBody.velocity.x < -maxSpeed)
+        {
+            playerRigidBody.velocity = -playerRigidBody.velocity.normalized * -maxSpeed;
         }
 
         if (direction > 0 && !isFacingRight)
