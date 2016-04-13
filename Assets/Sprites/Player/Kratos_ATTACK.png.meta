@@ -1,0 +1,656 @@
+fileFormatVersion: 2
+guid: 0da3fc8eb4b440846afc689251dcbf45
+timeCreated: 1460026649
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Kratos_ATTACK_0
+    21300002: Kratos_ATTACK_1
+    21300004: Kratos_ATTACK_2
+    21300006: Kratos_ATTACK_3
+    21300008: Kratos_ATTACK_4
+    21300010: Kratos_ATTACK_5
+    21300012: Kratos_ATTACK_6
+    21300014: Kratos_ATTACK_7
+    21300016: Kratos_ATTACK_8
+    21300018: Kratos_ATTACK_9
+    21300020: Kratos_ATTACK_10
+    21300022: Kratos_ATTACK_11
+    21300024: Kratos_ATTACK_12
+    21300026: Kratos_ATTACK_13
+    21300028: Kratos_ATTACK_14
+    21300030: Kratos_ATTACK_15
+    21300032: Kratos_ATTACK_16
+    21300034: Kratos_ATTACK_17
+    21300036: Kratos_ATTACK_18
+    21300038: Kratos_ATTACK_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Kratos_ATTACK_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 873
+        width: 189
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.5, y: -128}
+        - {x: 40.5, y: -133}
+        - {x: 94.5, y: -133}
+        - {x: 94.5, y: 64}
+        - {x: 39.5, y: 136}
+        - {x: -85.5, y: 136}
+        - {x: -94.5, y: 109}
+        - {x: -94.5, y: -15}
+        - {x: -29.5, y: -35}
+        - {x: -7.5, y: -32}
+        - {x: -6.5, y: -35}
+        - {x: -1.5, y: -37}
+        - {x: -0.5, y: -37}
+        - {x: -2.5, y: -37}
+        - {x: -9.5, y: -35}
+        - {x: -15.5, y: -44}
+        - {x: -15.5, y: -51}
+        - {x: -35.5, y: -135}
+        - {x: -34.5, y: -136}
+        - {x: 24.5, y: -136}
+        - {x: 32.5, y: -125}
+        - {x: 32.5, y: -118}
+        - {x: 34.5, y: -117}
+    - name: Kratos_ATTACK_1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 877
+        width: 176
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: -131.5}
+        - {x: 55, y: -129.5}
+        - {x: 73, y: -134.5}
+        - {x: 85, y: -134.5}
+        - {x: 88, y: -124.5}
+        - {x: 88, y: -37.5}
+        - {x: 60, y: 79.5}
+        - {x: -1, y: 134.5}
+        - {x: -34, y: 134.5}
+        - {x: -50, y: 114.5}
+        - {x: -88, y: 42.5}
+        - {x: -88, y: -85.5}
+        - {x: -70, y: -134.5}
+        - {x: 23, y: -134.5}
+        - {x: 24, y: -131.5}
+        - {x: 28, y: -107.5}
+        - {x: 26, y: -126.5}
+    - name: Kratos_ATTACK_2
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 882
+        width: 161
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 132.5}
+        - {x: -65.5, y: 132.5}
+        - {x: -69.5, y: 113.5}
+        - {x: -39.5, y: 54.5}
+        - {x: -80.5, y: 13.5}
+        - {x: -80.5, y: -33.5}
+        - {x: -57.5, y: -35.5}
+        - {x: -37.5, y: -34.5}
+        - {x: -38.5, y: -53.5}
+        - {x: -47.5, y: -117.5}
+        - {x: -46.5, y: -132.5}
+        - {x: 7.5, y: -132.5}
+        - {x: 18.5, y: -130.5}
+        - {x: 37.5, y: -132.5}
+        - {x: 62.5, y: -132.5}
+        - {x: 80.5, y: -125.5}
+        - {x: 80.5, y: 99.5}
+    - name: Kratos_ATTACK_3
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 885
+        width: 143
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: -127.5}
+        - {x: 22.5, y: -130.5}
+        - {x: 71.5, y: -130.5}
+        - {x: 71.5, y: 120.5}
+        - {x: 47.5, y: 130.5}
+        - {x: -60.5, y: 130.5}
+        - {x: -71.5, y: 123.5}
+        - {x: -71.5, y: 102.5}
+        - {x: -51.5, y: 57.5}
+        - {x: -38.5, y: 61.5}
+        - {x: -33.5, y: 65.5}
+        - {x: -31.5, y: 66.5}
+        - {x: -33.5, y: 63.5}
+        - {x: -37.5, y: 54.5}
+        - {x: -39.5, y: 41.5}
+        - {x: -71.5, y: -33.5}
+        - {x: -71.5, y: -42.5}
+        - {x: -49.5, y: -42.5}
+        - {x: -49.5, y: -40.5}
+        - {x: -43.5, y: -40.5}
+        - {x: -45.5, y: -40.5}
+        - {x: -48.5, y: -41.5}
+        - {x: -55.5, y: -48.5}
+        - {x: -56.5, y: -129.5}
+        - {x: -55.5, y: -130.5}
+        - {x: 0.5, y: -130.5}
+        - {x: 9.5, y: -118.5}
+        - {x: 8.5, y: -103.5}
+        - {x: 9.5, y: -122.5}
+    - name: Kratos_ATTACK_4
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 889
+        width: 142
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: -109.5}
+        - {x: 9, y: -120.5}
+        - {x: 17, y: -125.5}
+        - {x: 37, y: -123.5}
+        - {x: 43, y: -122.5}
+        - {x: 64, y: -124.5}
+        - {x: 71, y: -121.5}
+        - {x: 71, y: 128.5}
+        - {x: -71, y: 128.5}
+        - {x: -71, y: -36.5}
+        - {x: -54, y: -128.5}
+        - {x: 0, y: -128.5}
+        - {x: 9, y: -117.5}
+        - {x: 9, y: -110.5}
+        - {x: 7, y: -93.5}
+    - name: Kratos_ATTACK_5
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 889
+        width: 142
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -125.5}
+        - {x: 38, y: -128.5}
+        - {x: 53, y: -128.5}
+        - {x: 71, y: -121.5}
+        - {x: 71, y: 100.5}
+        - {x: 32, y: 128.5}
+        - {x: -71, y: 128.5}
+        - {x: -71, y: -119.5}
+        - {x: -59, y: -128.5}
+        - {x: -11, y: -128.5}
+        - {x: -1, y: -127.5}
+        - {x: 4, y: -123.5}
+        - {x: 9, y: -116.5}
+        - {x: 9, y: -120.5}
+    - name: Kratos_ATTACK_6
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 889
+        width: 142
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -125.5}
+        - {x: 38, y: -128.5}
+        - {x: 56, y: -128.5}
+        - {x: 71, y: -124.5}
+        - {x: 71, y: 82.5}
+        - {x: 52, y: 97.5}
+        - {x: 27, y: 102.5}
+        - {x: -20, y: 128.5}
+        - {x: -54, y: 128.5}
+        - {x: -71, y: 117.5}
+        - {x: -71, y: -95.5}
+        - {x: -65, y: -128.5}
+        - {x: -3, y: -128.5}
+        - {x: -1, y: -127.5}
+        - {x: 4, y: -123.5}
+        - {x: 9, y: -116.5}
+        - {x: 9, y: -120.5}
+    - name: Kratos_ATTACK_7
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 889
+        width: 142
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -125.5}
+        - {x: 38, y: -128.5}
+        - {x: 53, y: -128.5}
+        - {x: 71, y: -121.5}
+        - {x: 71, y: 112.5}
+        - {x: 42, y: 128.5}
+        - {x: -69, y: 128.5}
+        - {x: -71, y: 126.5}
+        - {x: -71, y: -69.5}
+        - {x: -64, y: -115.5}
+        - {x: -55, y: -128.5}
+        - {x: -12, y: -128.5}
+        - {x: -1, y: -127.5}
+        - {x: 4, y: -123.5}
+        - {x: 9, y: -116.5}
+        - {x: 9, y: -120.5}
+    - name: Kratos_ATTACK_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 612
+        width: 142
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 128.5}
+        - {x: -67, y: 128.5}
+        - {x: -71, y: 126.5}
+        - {x: -71, y: 66.5}
+        - {x: -64, y: -128.5}
+        - {x: 65, y: -128.5}
+        - {x: 71, y: -124.5}
+        - {x: 71, y: 107.5}
+    - name: Kratos_ATTACK_9
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 612
+        width: 142
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: -109.5}
+        - {x: 9, y: -120.5}
+        - {x: 17, y: -125.5}
+        - {x: 43, y: -128.5}
+        - {x: 48, y: -128.5}
+        - {x: 71, y: -122.5}
+        - {x: 71, y: 73.5}
+        - {x: 65, y: 100.5}
+        - {x: 22, y: 128.5}
+        - {x: -71, y: 128.5}
+        - {x: -71, y: -128.5}
+        - {x: 0, y: -128.5}
+        - {x: 9, y: -117.5}
+        - {x: 9, y: -110.5}
+        - {x: 7, y: -93.5}
+    - name: Kratos_ATTACK_10
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 612
+        width: 142
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -125.5}
+        - {x: 38, y: -128.5}
+        - {x: 56, y: -128.5}
+        - {x: 71, y: -124.5}
+        - {x: 71, y: 103.5}
+        - {x: 46, y: 128.5}
+        - {x: -71, y: 128.5}
+        - {x: -71, y: -38.5}
+        - {x: -57, y: -114.5}
+        - {x: -54, y: -128.5}
+        - {x: -12, y: -128.5}
+        - {x: -1, y: -127.5}
+        - {x: 4, y: -123.5}
+        - {x: 9, y: -116.5}
+        - {x: 9, y: -120.5}
+    - name: Kratos_ATTACK_11
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 612
+        width: 142
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -125.5}
+        - {x: 38, y: -128.5}
+        - {x: 56, y: -128.5}
+        - {x: 71, y: -125.5}
+        - {x: 71, y: 110.5}
+        - {x: 50, y: 128.5}
+        - {x: -63, y: 128.5}
+        - {x: -71, y: 115.5}
+        - {x: -71, y: -60.5}
+        - {x: -54, y: -128.5}
+        - {x: -12, y: -128.5}
+        - {x: -1, y: -127.5}
+        - {x: 4, y: -123.5}
+        - {x: 9, y: -116.5}
+        - {x: 9, y: -120.5}
+    - name: Kratos_ATTACK_12
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 612
+        width: 142
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: -109.5}
+        - {x: 9, y: -120.5}
+        - {x: 17, y: -125.5}
+        - {x: 37, y: -123.5}
+        - {x: 60, y: -128.5}
+        - {x: 67, y: -128.5}
+        - {x: 71, y: -117.5}
+        - {x: 71, y: -79.5}
+        - {x: 70, y: -77.5}
+        - {x: 71, y: -65.5}
+        - {x: 71, y: 84.5}
+        - {x: 62, y: 116.5}
+        - {x: 48, y: 128.5}
+        - {x: -71, y: 128.5}
+        - {x: -71, y: -68.5}
+        - {x: -58, y: -128.5}
+        - {x: 0, y: -128.5}
+        - {x: 9, y: -117.5}
+        - {x: 9, y: -110.5}
+        - {x: 7, y: -93.5}
+    - name: Kratos_ATTACK_13
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 612
+        width: 179
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: -125.5}
+        - {x: 56.5, y: -128.5}
+        - {x: 73.5, y: -128.5}
+        - {x: 89.5, y: -123.5}
+        - {x: 89.5, y: 73.5}
+        - {x: 33.5, y: 128.5}
+        - {x: -52.5, y: 128.5}
+        - {x: -86.5, y: 107.5}
+        - {x: -89.5, y: 88.5}
+        - {x: -89.5, y: -48.5}
+        - {x: -39.5, y: -128.5}
+        - {x: 9.5, y: -128.5}
+        - {x: 17.5, y: -127.5}
+        - {x: 22.5, y: -123.5}
+        - {x: 27.5, y: -116.5}
+        - {x: 27.5, y: -120.5}
+    - name: Kratos_ATTACK_14
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 612
+        width: 229
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55.5, y: -129}
+        - {x: 114.5, y: -129}
+        - {x: 114.5, y: 57}
+        - {x: 111.5, y: 81}
+        - {x: 35.5, y: 129}
+        - {x: -47.5, y: 129}
+        - {x: -114.5, y: 59}
+        - {x: -114.5, y: 18}
+        - {x: -52.5, y: 5}
+        - {x: -25.5, y: 8}
+        - {x: -22.5, y: -66}
+        - {x: -10.5, y: -129}
+        - {x: 43.5, y: -129}
+        - {x: 51.5, y: -120}
+        - {x: 52.5, y: -110}
+        - {x: 52.5, y: -121}
+    - name: Kratos_ATTACK_15
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 349
+        width: 277
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 84.5, y: -126.5}
+        - {x: 131.5, y: -125.5}
+        - {x: 138.5, y: -116.5}
+        - {x: 138.5, y: -79.5}
+        - {x: 117.5, y: -59.5}
+        - {x: 119.5, y: -29.5}
+        - {x: 84.5, y: 97.5}
+        - {x: 51.5, y: 129.5}
+        - {x: -41.5, y: 129.5}
+        - {x: -138.5, y: 52.5}
+        - {x: -138.5, y: 40.5}
+        - {x: -118.5, y: 27.5}
+        - {x: -67.5, y: 17.5}
+        - {x: -49.5, y: 16.5}
+        - {x: -47.5, y: 18.5}
+        - {x: -47.5, y: 20.5}
+        - {x: -50.5, y: 23.5}
+        - {x: -33.5, y: 16.5}
+        - {x: -17.5, y: 12.5}
+        - {x: 3.5, y: -115.5}
+        - {x: 13.5, y: -129.5}
+        - {x: 67.5, y: -129.5}
+        - {x: 75.5, y: -120.5}
+        - {x: 76.5, y: -110.5}
+        - {x: 76.5, y: -121.5}
+    - name: Kratos_ATTACK_16
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 351
+        width: 275
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83.5, y: -129}
+        - {x: 84.5, y: -129}
+        - {x: 137.5, y: -125}
+        - {x: 137.5, y: -23}
+        - {x: 111.5, y: 96}
+        - {x: 53.5, y: 129}
+        - {x: -12.5, y: 129}
+        - {x: -137.5, y: 70}
+        - {x: -137.5, y: 50}
+        - {x: -87.5, y: 27}
+        - {x: -74.5, y: 23}
+        - {x: -55.5, y: 18}
+        - {x: -46.5, y: 22}
+        - {x: -48.5, y: 24}
+        - {x: -27.5, y: 11}
+        - {x: -0.5, y: -115}
+        - {x: 11.5, y: -129}
+        - {x: 66.5, y: -129}
+        - {x: 74.5, y: -120}
+        - {x: 75.5, y: -110}
+        - {x: 75.5, y: -121}
+    - name: Kratos_ATTACK_17
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 351
+        width: 270
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 81, y: -125.5}
+        - {x: 128, y: -124.5}
+        - {x: 135, y: -115.5}
+        - {x: 135, y: -78.5}
+        - {x: 114, y: -58.5}
+        - {x: 100, y: -46.5}
+        - {x: 111, y: -27.5}
+        - {x: 128, y: 13.5}
+        - {x: 70, y: 128.5}
+        - {x: -88, y: 128.5}
+        - {x: -135, y: 110.5}
+        - {x: -135, y: 60.5}
+        - {x: -80, y: 29.5}
+        - {x: -69, y: 25.5}
+        - {x: -55, y: 22.5}
+        - {x: -37, y: 5.5}
+        - {x: -2, y: -114.5}
+        - {x: 10, y: -128.5}
+        - {x: 64, y: -128.5}
+        - {x: 72, y: -119.5}
+        - {x: 73, y: -109.5}
+        - {x: 73, y: -120.5}
+    - name: Kratos_ATTACK_18
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 351
+        width: 272
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 82, y: -128.5}
+        - {x: 136, y: -124.5}
+        - {x: 136, y: -27.5}
+        - {x: 109, y: 98.5}
+        - {x: 47, y: 128.5}
+        - {x: -5, y: 128.5}
+        - {x: -43, y: 50.5}
+        - {x: -50, y: 53.5}
+        - {x: -46, y: 52.5}
+        - {x: -43, y: 55.5}
+        - {x: -42, y: 57.5}
+        - {x: -59, y: 71.5}
+        - {x: -136, y: 114.5}
+        - {x: -136, y: 42.5}
+        - {x: -56, y: -128.5}
+        - {x: 65, y: -128.5}
+        - {x: 73, y: -119.5}
+        - {x: 74, y: -109.5}
+        - {x: 74, y: -120.5}
+    - name: Kratos_ATTACK_19
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 88
+        width: 274
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83, y: -125.5}
+        - {x: 130, y: -124.5}
+        - {x: 137, y: -115.5}
+        - {x: 137, y: -59.5}
+        - {x: 130, y: -27.5}
+        - {x: 93, y: 108.5}
+        - {x: 48, y: 128.5}
+        - {x: -27, y: 128.5}
+        - {x: -137, y: 74.5}
+        - {x: -137, y: 62.5}
+        - {x: -79, y: 26.5}
+        - {x: -50, y: 11.5}
+        - {x: -29, y: 6.5}
+        - {x: 2, y: -114.5}
+        - {x: 12, y: -128.5}
+        - {x: 66, y: -128.5}
+        - {x: 74, y: -119.5}
+        - {x: 75, y: -109.5}
+        - {x: 75, y: -120.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
