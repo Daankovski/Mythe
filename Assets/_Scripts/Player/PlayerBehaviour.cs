@@ -14,6 +14,7 @@ public class PlayerBehaviour : MonoBehaviour
     [SerializeField]   private bool isFacingRight;
     [SerializeField]   private Animator playerAnims;
     [SerializeField]   private Transform groundCheck;
+    private float gravity = -5.0f;
     float movementForce = 15f;
     GameObject chainCrosshair;
     public LayerMask mask;
@@ -86,9 +87,9 @@ public class PlayerBehaviour : MonoBehaviour
         {
             if (isGrounded)
             {
-                isGrounded = false;
                 playerRigidBody.AddForce(Vector2.up * jumpForce);
                 playerAnims.SetTrigger("isJump");
+                isGrounded = false;
             }
             else
             {
